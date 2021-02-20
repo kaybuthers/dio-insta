@@ -1,0 +1,183 @@
+*
+{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	font-family: sans-serif;
+	font-size: 14px;
+}
+
+body
+{
+	width: 100%
+	min-height: 100vh;
+	background-color: rgb(243, 243, 243);
+	align-items: center;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+}
+
+.instagram-wrapper
+{
+	display: flex;
+	align-items: center;
+	justify-content: start;
+	width: 60%
+	height: 100vh;
+}
+
+.instagram-phone
+{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 50%
+}
+
+.instagram-phone img
+{
+	height: 50rem;
+}
+
+.instagram-continue
+{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-direction: column;
+	width: 50%
+	min-height: 34rem;
+}
+
+.group
+{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-direction: column;
+	background-color: #ffffff;
+	width: 100%;
+	padding: 3rem 0;
+	border: 1px solid lightgray;
+	margin: 3px;
+}
+
+.group:nth-child(1)
+{
+	min-height: 19rem;
+}
+
+.instagram-logo
+{
+	height: 7rem;
+}
+
+.profile-photo
+{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50%;
+	overflow: hidden;
+}
+
+.profile-photo img
+{
+	height: 6rem;
+}
+
+.instagram-login
+{
+	background-color: #0095f6;
+	color: white;
+	margin-top: 15rem;
+	padding: 8px;
+	border-radius: 4px;
+}
+
+.instagram-logout
+{
+	color: #0095f6;
+	margin-top: 1rem;
+}
+
+.not-account
+{
+	color: rgb(160, 160, 160);
+}
+
+.link-blue
+{
+	color: #0095f6;
+}
+
+.get-theapp
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	padding: 1.3rem 0;
+}
+
+.download
+{
+	display: flex;
+	width: 100%;
+	justify-content: space-evenly;
+	align-items: center;
+	padding: 1rem;
+}
+
+.app-download
+{
+	height: 3rem;
+	width: 10rem;
+	background-size: cover;
+}
+
+.app-download:nth-child(1)
+{
+	background-image: url("https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png");
+}
+
+.app-download:nth-child(2)
+{
+	background-image: url("https://images.squarespace-cdn.com/content/v1/521e1b54e4b0d5666865713d/1519206451343-MCC59MFXYR45BWYODZMR/ke17ZwdGBToddI8pDm48kMcjOUFsbAdLR7Q0z-YTklpZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpxpk_Ob9m8UmiGqkfPJJGXoVTH7nX16R5d2vox88feZwteP5jahMEEfc8CD4gssdyk/website-ios-app-store-600.png");
+}
+
+@media (max-width: 1024px)
+{
+	body
+	{
+		background-color: white;
+	}
+	.instagram-wrapper
+	{
+		width: 90%;
+	}
+	.group
+	{
+	border: 1px solid transparent;
+	}
+}
+
+@media (max-width: 650px)
+{
+	.instagram-wrapper
+	{
+		width: 90%;
+	}
+
+	.instagram-phone
+	{
+		display: none;
+	}
+	.instagram-continue
+	{
+		width: 100%;
+	}
+}
